@@ -10,15 +10,17 @@ import Hotel from "./pages/hotel/Hotel";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element = {<Home/>} />
-        <Route exact path="/hotels" element = {<List/>} />
-        <Route exact path="/hotels/:id" element = {<Hotel/>} />
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/hotels" element={<List />} />
+          <Route exact path="/hotels/:id" element={<Hotel />} />
 
-        <Route exact path="*" element = {<NotFound/>} />
-      </Routes>
-    </Router>
+          <Route exact path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
