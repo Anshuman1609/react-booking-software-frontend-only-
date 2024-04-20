@@ -8,6 +8,7 @@
     align-items: center;
     gap: 20px;
     padding: 50px;
+    margin-right: 100px;
 }
 
 .mailInputContainer>input{
@@ -25,4 +26,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.mailTitle, .mailDesc, .mailInputContainer{
+    margin-left: 100px;
 }
